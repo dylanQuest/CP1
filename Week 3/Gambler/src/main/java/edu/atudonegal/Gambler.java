@@ -15,7 +15,7 @@ import java.util.concurrent.ThreadLocalRandom;
  * https://en.wikipedia.org/wiki/Gambler%27s_ruin
  */
 
-//lolol q12
+//lolol q12 12
 
 public class Gambler {
 

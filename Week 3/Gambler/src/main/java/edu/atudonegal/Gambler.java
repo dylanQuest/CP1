@@ -14,6 +14,9 @@ import java.util.concurrent.ThreadLocalRandom;
  * then they should be asked once again for their starting pot and goal. For more information see:
  * https://en.wikipedia.org/wiki/Gambler%27s_ruin
  */
+
+//lolol q12
+
 public class Gambler {
 
   /**

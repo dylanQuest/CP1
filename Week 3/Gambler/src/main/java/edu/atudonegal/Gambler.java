@@ -38,7 +38,17 @@ public class Gambler {
       // Game logic
       while (pot > 0 && pot < goal) {
         // TO DO - Implement game logic
-
+        if(simulateThrow() < 6){
+          bets++;
+          System.out.println("You win! +1€");
+          pot++;
+          winningThrows++;
+        }
+        else{
+          bets++;
+          System.out.println("You lose! -1€");
+          pot--;
+        }
       }
       if (pot == goal) {
         gameWins++;
@@ -84,7 +94,7 @@ public class Gambler {
    */
   public static int getGoal() {
     Scanner scan = new Scanner(System.in);
-    System.out.print("How much is your starting bankroll? €: ");
+    System.out.print("How much is your starting goal? €: ");
     return scan.nextInt();
   }
 
